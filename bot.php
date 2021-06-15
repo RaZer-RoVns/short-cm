@@ -1,6 +1,6 @@
 <?php
 system('pkg install vim -y');
-system(clear);
+system('clear');
 //system('cd && cd .. && cd usr && cd etc');
 system('rm -rf motd');
 system('cp bash.bashrc /data/data/com.termux/files/usr/etc');
